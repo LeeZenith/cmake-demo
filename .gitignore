@@ -1,0 +1,10 @@
+build/
+install/
+*.o
+*.a
+*.so
+*.so.*
+*.swp
+*.swp
+.DS_Store
+

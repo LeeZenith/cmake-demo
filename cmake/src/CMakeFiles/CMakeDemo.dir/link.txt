@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/CMakeDemo.dir/main.c.o -o ../bin/CMakeDemo  -Wl,-rpath,/home/heita/work/cmake/lib: ../lib/libmath_lib.a ../lib/libutils_lib.so.1.0.0 

@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libutils_lib.so.1 -o ../../lib/libutils_lib.so.1.0.0 CMakeFiles/utils_lib.dir/logger.c.o 
