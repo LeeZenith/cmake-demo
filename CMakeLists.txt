@@ -4,6 +4,8 @@ project(ModernCMakeExamples)
 
 # 设置输出目录
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+# 设置固定安装路径
+set(CMAKE_INSTALL_PREFIX "${CMAKE_BINARY_DIR}/../install" CACHE PATH "Installation directory" FORCE)
 
 # 添加高级生成器表达式示例
 add_subdirectory(examples/advanced_generator_expressions/target_property_example)
